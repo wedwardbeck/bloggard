@@ -1,7 +1,7 @@
 Blog
 ====
 
-Blog app used as a sales demo and personal blog.   
+Blog app used as a sales demo and personal blog.
 
 .. image:: https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg
      :target: https://github.com/pydanny/cookiecutter-django/

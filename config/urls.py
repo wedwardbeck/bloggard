@@ -16,6 +16,9 @@ urlpatterns = [
     path("users/", include("blog.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
+    path("", include('user_sessions.urls', 'user_sessions')),
+    path('api/v1/', include('core.apiurls')),
+    path('posts/', include('core.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:

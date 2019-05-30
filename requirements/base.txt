@@ -13,7 +13,20 @@ django-model-utils==3.1.2  # https://github.com/jazzband/django-model-utils
 django-allauth==0.39.1  # https://github.com/pennersr/django-allauth
 django-crispy-forms==1.7.2  # https://github.com/django-crispy-forms/django-crispy-forms
 django-redis==4.10.0  # https://github.com/niwinz/django-redis
+django-braces==1.13.0
+django-choices==1.6.2
+django-contrib-comments==1.9.1
+django-extra-views==0.12.0
+django-vanilla-views==1.0.6
 
 # Django REST Framework
 djangorestframework==3.9.4  # https://github.com/encode/django-rest-framework
 coreapi==2.3.3  # https://github.com/core-api/python-client
+django-filter==2.1.0
+
+# Additional Core Packages
+# ------------------------------------------------------------------------------
+django-user-sessions==1.6.0
+django-websocket-redis==0.5.1
+requests==2.22.0
+# geoip2

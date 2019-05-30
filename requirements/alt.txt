@@ -1,0 +1,8 @@
+# Alternate Components To Be Verified
+
+# Google reCaptcha
+django-nocaptcha-recaptcha==0.0.20
+
+# Custom requirements go here
+django-simple-history==2.7.0
+pendulum==2.0.4
