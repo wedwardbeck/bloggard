@@ -26,7 +26,7 @@ django-filter==2.1.0
 
 # Additional Core Packages
 # ------------------------------------------------------------------------------
-django-user-sessions==1.6.0
+django-user-sessions==1.7.1
 django-websocket-redis==0.5.1
 requests==2.22.0
 # geoip2
